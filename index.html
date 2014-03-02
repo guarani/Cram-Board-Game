@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<script src="jquery-2.0.3.js"></script>
+		<script src="game.js"></script>
+		<link rel="stylesheet" type="text/css" href="game.css"></link>
+	</head>
+	<body>
+		<h1>Cram</h1>
+		<hr />
+		<div id="game-text">Choose first player</div>
+		<div id="container"></div>
+		<div id="details">
+			<h2>Instructions</h2>
+			<ul>
+				<li>Click on any cell and drag to an orthogonally adjacent cell to place your piece</li>
+				<li>The last player to connect two cells with a piece is the winner</li>
+				<li class="important-text">The second player's first move must not be symetrical with respect to the first player's opening move</li>
+			</ul>
+			<div class="player-button" id="player1-button">
+				<p>Player 1 First!</p>
+			</div>
+			<div class="player-button" id="player2-button">
+				<p>Player 2 First!</p>
+			</div>
+		</div>
+	</body>
+</html>
